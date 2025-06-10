@@ -1,10 +1,10 @@
 # Transformer-Based Video Classification in PyTorch using Rotary Positional Embeddings
 
-## Project Description
+## Description
 
-The project demonstrates the implementation of a transformer-based video classifier in PyTorch.
+This project demonstrates the implementation of a transformer-based video classifier in PyTorch.
 
-High-level features from the first 24 frames of each video were extracted with a pre-trained image classification model (DenseNet121). 
+High-level features from the first 24 frames of each video were extracted with a pre-trained image classification model. 
 A transformer-based classification model was then trained on the sequences of extracted frame features to recognize the action performed in a video. 
 
 The model consists of a TransformerEncoder module with Rotary Positional Embedding (RoPE) and 4 attention heads, 
