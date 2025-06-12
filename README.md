@@ -12,13 +12,9 @@ followed by a classifier module which performs global average pooling over the t
 
 ## Dataset and Augmentation
 
-The model was trained on a subsampled version of the UCF101 dataset containing only the 5 most frequent classes. This subsampled dataset was created by Paul (2021), 
+The model was trained on a subsampled version of the UCF101 dataset containing only the 5 most frequent classes. This subsampled dataset, split into train and test data, was created by Paul (2021), 
 and can be downloaded from [here](https://github.com/sayakpaul/Action-Recognition-in-TensorFlow/releases/download/v1.0.0/ucf101_top5.tar.gz).
 Data augmentation was performed by producing a grayscale copy of each training sample, doubling the size of the training dataset.
-
-## Model Performance
-
-The model achieved a maximum validation accuracy of 99.1 %.
 
 ## Credits
 
